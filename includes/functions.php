@@ -439,7 +439,7 @@ function Attack($attacker, $defender){
 			changeRating($pid,+$ratingchange);
 			changeRating($defender['pid'],-$ratingchange);
 			giveShield($defender['pid'],3600);
-			echo("<p>$ratingchange Raiting Gained.");
+			echo("<p>$ratingchange Rating Gained.");
 			
 		}elseif($dscore>$ascore){
 			logAttack($attacker['pid'],$defender['pid'],$defender['pid'],$attacker['hp'],abs($ascore - $dscore),round($attacker['silver']*0.3));
