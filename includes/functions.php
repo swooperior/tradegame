@@ -95,7 +95,7 @@ function getAData($aid){
 function postAuction($pid, $iid, $amount, $dur, $bid, $buy){
 	if(isset($_SESSION['pid'])){
 		$exists = mysqli_query($GLOBALS['link'],"SELECT * FROM `players-inventory` WHERE pid='$pid' AND item='$iid' AND amount >= $amount");
-		if($exists){
+		if($exists && $amount > 0){
 			mysqli_query($GLOBALS['link'],"INSERT INTO auctions(pid,iid,amount,dur,bid,buyout) VALUES($pid,$iid,$amount,$dur,$bid,$buy);") or die(mysqli_error($GLOBALS['link']));
 			removeItem($_SESSION['pid'],$iid,$amount);
 			$cost = intval($buy * 0.05);
