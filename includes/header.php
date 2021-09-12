@@ -51,6 +51,7 @@ if(isset($_SESSION['pid'])){
 	<br>
 	<a href="raid.php">Raids</a>
 	<br>
+	<a href="test.php">Drop tables</a>
 </div>
 <?php } ?>
 <div id="pagecontent">
