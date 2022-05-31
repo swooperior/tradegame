@@ -1,4 +1,5 @@
 <?php include 'includes/header.php' ?>
+<p>v0.1.1</p>
 <p>Welcome.</p>
 <p>The name of this game is currently undecided.</p>
 <p>Wherever an item name appears, you can tap it (on mobile) or hover over to view its stats.</p>
