@@ -3,7 +3,7 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#000">
-<link rel="stylesheet" type="text/css" href="/tradeGame/includes/style.css?ver=1.2">
+<link rel="stylesheet" type="text/css" href="/includes/style.css?ver=1.2">
 </head>
 <?php include 'dbconnect.php'; include 'functions.php';
 error_reporting(0);
